@@ -46,7 +46,7 @@ const Hero = ({ onGetStarted }: HeroProps) => {
         </p>
 
         {/* CTA buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex justify-center">
           <Button 
             onClick={onGetStarted}
             size="lg"
@@ -54,14 +54,6 @@ const Hero = ({ onGetStarted }: HeroProps) => {
           >
             Start Your Journey
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </Button>
-          
-          <Button 
-            variant="outline"
-            size="lg"
-            className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-6 text-lg"
-          >
-            Learn More
           </Button>
         </div>
 
