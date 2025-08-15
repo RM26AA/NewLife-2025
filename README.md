@@ -1,4 +1,67 @@
-# Welcome to your Lovable project
+# New Life Explorer 🌍✨
+
+New Life Explorer is a clean, modern, AI-powered web application that helps users find their perfect place to live and work. Using the Google Gemini API, it analyzes personal, lifestyle, and career preferences to deliver tailored relocation recommendations with detailed insights.
+
+## 🚀 Features
+
+- Multi-step Interactive Form – Collects user preferences across personal profile, lifestyle, career goals, and values.
+- Google Gemini API Integration – AI-driven analysis to suggest top cities or countries.
+- Results Dashboard – Displays top 3 recommendations with scores, highlights, and lifestyle fit.
+- Additional Insights – Climate match, community vibe, budget analysis, personality fit meter, and "Day in Life" simulation.
+- Export Options – Copy recommendations to clipboard or save them as a text file.
+- Responsive & Modern Design – White and blue gradient theme with smooth animations.
+
+## 🛠 Tech Stack
+
+- Frontend: React + TypeScript + Tailwind CSS
+- API: Google Gemini API
+- Animations & UI: Framer Motion, Icons, Gradient Styling
+
+# 📦 Installation
+
+## Clone repository
+```
+git clone https://github.com/your-username/new-life-explorer.git
+cd new-life-explorer
+```
+
+## Install dependencies
+```
+npm install
+```
+
+## Start development server
+```
+npm run dev
+```
+
+## 🔑 API Setup
+
+1. Get your API key from Google AI Studio. [https://aistudio.google.com/prompts/new_chat]
+2. Create a .env file in the project root:
+```
+VITE_GEMINI_API_KEY=your_api_key_here
+```
+3. The app will use this key to connect to the Gemini API.
+
+## 📄 Usage
+
+1. Open the app in your browser.
+2. Fill out the multi-step form with your preferences.
+3. Click Find My New Life to generate recommendations.
+4. View top locations with detailed lifestyle and career insights.
+5. Copy or save results for later.
+
+## 🎨 Design
+
+- Theme: White base with soft blue gradients.
+- Layout: Mobile-first responsive design with interactive UI components.
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+# Lovable project
 
 ## Project info
 
